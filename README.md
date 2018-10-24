@@ -1,9 +1,9 @@
 # LightStyle
 
 ## Usage
-```
+```swift
 // Set Username and password.
-LightStyleSDK.initialize(username: "LightStyle", password: "Password")
+LightStyleSDK.initialize(username: "<username>", password: "<password>")
         
 // Set project id and unit id.
 LightStyleSDK.shared.set(projectId: "1", unitKey: "sdk_beta")
