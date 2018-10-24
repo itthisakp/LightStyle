@@ -2,6 +2,9 @@
 
 ## Usage
 ```swift
+// Import SDK
+import LightStyleSDK
+
 // Set Username and password.
 LightStyleSDK.initialize(username: "<username>", password: "<password>")
         
