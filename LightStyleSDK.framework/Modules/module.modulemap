@@ -1,0 +1,11 @@
+framework module LightStyleSDK {
+  umbrella header "LightStyleSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module LightStyleSDK.Swift {
+    header "LightStyleSDK-Swift.h"
+    requires objc
+}
