@@ -10,11 +10,19 @@
 		</data>
 		<key>Headers/LightStyleSDK.h</key>
 		<data>
-		e4NcnxAVY2KURHBl/SiccifHWeg=
+		B5/e/9oR8a43oDTBEqlKe5+19YA=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		XhmFoul+BqDaZxv+tvngiq3YNzc=
+		</data>
+		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftdoc</key>
+		<data>
+		yqJ8acWemOleJohUD4jPWdE6xt4=
+		</data>
+		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
+		<data>
+		N2rwK6H/eEUr6I29zDggZvGsgM0=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -22,15 +30,11 @@
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		KIVLZaEbpeDmM2uM/jPPwIgMEfE=
+		Xi3x2oG75PzCdzS1bnefXMFIzRc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		gi3pySAntmbHPCPLKdUoslGr8xQ=
-		</data>
-		<key>Modules/module.private.modulemap</key>
-		<data>
-		egJ98SLvNFDU7Ej+97AUajEQnTs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -50,11 +54,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e4NcnxAVY2KURHBl/SiccifHWeg=
+			B5/e/9oR8a43oDTBEqlKe5+19YA=
 			</data>
 			<key>hash2</key>
 			<data>
-			CF5W5TYMhZPR1OV/hKKLA/8LdaJwyxJ+C/93F+tbV9M=
+			LqCnq0Z52IhUrTk7ixmSzVM/nNPnvDzwV4/Tg9qO/CQ=
+			</data>
+		</dict>
+		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yqJ8acWemOleJohUD4jPWdE6xt4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/iHEUfJWkLqsv4TpyfIl1P7VWogo0f/QeWJfsWKacW0=
+			</data>
+		</dict>
+		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N2rwK6H/eEUr6I29zDggZvGsgM0=
+			</data>
+			<key>hash2</key>
+			<data>
+			rB/whAu66CX6ZJASy4gE548Qlj6QOX+yzEIsObtxKSQ=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -72,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KIVLZaEbpeDmM2uM/jPPwIgMEfE=
+			Xi3x2oG75PzCdzS1bnefXMFIzRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			OqBvT1v9XT6Zi02KZv6uniSd1ftnt8RZVEpq4Ek5gLs=
+			6VW1AUCoh33c1zGxjGyZYFV1GLEfuxuw2/RM3Cn0zjs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -88,17 +114,6 @@
 			<key>hash2</key>
 			<data>
 			7PMjkEuzmHccgwimOniOrI03JTcO1PAG/Y2TilXLESc=
-			</data>
-		</dict>
-		<key>Modules/module.private.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			egJ98SLvNFDU7Ej+97AUajEQnTs=
-			</data>
-			<key>hash2</key>
-			<data>
-			0uFMFFs6MZWdlq8zyPNa04BlAaJyrswKWk3etHGQ3L8=
 			</data>
 		</dict>
 	</dict>

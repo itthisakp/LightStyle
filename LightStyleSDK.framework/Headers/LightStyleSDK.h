@@ -14,5 +14,5 @@ FOUNDATION_EXPORT double LightStyleSDKVersionNumber;
 //! Project version string for LightStyleSDK.
 FOUNDATION_EXPORT const unsigned char LightStyleSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <LightStyleSDK/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <LightStyleSDK/PublicHeader.h>3
 
