@@ -9,7 +9,7 @@ import LightStyleSDK
 LightStyleSDK.initialize(username: "<username>", password: "<password>")
         
 // Set project id and unit id.
-LightStyleSDK.shared.set(projectId: "1", unitKey: "sdk_beta")
+LightStyleSDK.shared.set(projectId: "<project id>", unit: "<unit>")
         
 // Update configuration.
 LightStyleSDK.shared.updateConfiguration { (success, error) in

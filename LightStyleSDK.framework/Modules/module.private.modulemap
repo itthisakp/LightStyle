@@ -1,0 +1,4 @@
+module LSBridging {
+    header "Source/ObjC/LSBridging.h"
+    export *
+}
