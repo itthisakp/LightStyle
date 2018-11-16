@@ -5,18 +5,18 @@
 // Import SDK
 import LightStyleSDK
 
-// Set Username and password.
-LightStyleSDK.initialize(username: "<username>", password: "<password>")
+// Get rooms
+let rooms = LightStyleSDK.shared.rooms
+
+// Set Switch Command
+let sw = LightStyleSDK.shared.rooms.first!.switches.first!
+let cmd = sw.commands.first!
         
-// Set project id and unit id.
-LightStyleSDK.shared.set(projectId: "<project id>", unit: "<unit>")
-        
-// Update configuration.
-LightStyleSDK.shared.updateConfiguration { (success, error) in
+LightStyleSDK.shared.sendCommand(to: sw, with: cmd) { (success, error) in
     if success {
-        print("update configuration successfully.")
+        print("Send Command Successfully")
+    } else {
+        print("error: \(error?.description ?? "unknown error").")
     }
-    // Get all rooms
-    let rooms = LightStyleSDK.shared.rooms
 }
 ```
