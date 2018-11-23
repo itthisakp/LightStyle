@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9kNQMgBhhjQi/xpmBjH5ULg61VM=
+		bmjz/E4PITFwPyoSrF8w6J8KCxE=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		119/ZeB4MhNyaU5ynyPmjSY0IRU=
+		X7rUQX1ovLNiGhqGuYqH7ZXllko=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		1fk4+OmKEKwBw0bbSw6Wi2NPMDs=
+		Fdaxk8BHsRnYmNys9KyvWl0BgJA=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		BAmCvx3WuGNT5exr+zBaoygNySw=
+		Kbt9PJnm/iVTcMQvKtEUufneu2k=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		7J+wm5U2Q872XGmYRwcNzFzbNS0=
+		jFsvGKP9GthoKCIe6ZGN6xZXOeQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,44 +80,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			119/ZeB4MhNyaU5ynyPmjSY0IRU=
+			X7rUQX1ovLNiGhqGuYqH7ZXllko=
 			</data>
 			<key>hash2</key>
 			<data>
-			khuQ0YEDQa9/hZeH6u2H+JFVEizj9mA25U+mQbLsoYQ=
+			njRA1hNQGT9dcmpmu08g8LaKF3DNomgH3Wq24D8ScyM=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1fk4+OmKEKwBw0bbSw6Wi2NPMDs=
+			Fdaxk8BHsRnYmNys9KyvWl0BgJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			w/qDdGGaWIExdEVOx+X+bH7U1FrQED9hmt9buZWGVlI=
+			qYcYr0WXbNaVqQITqvmecQgpJJzFflkAGDo5sjdWF1Q=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BAmCvx3WuGNT5exr+zBaoygNySw=
+			Kbt9PJnm/iVTcMQvKtEUufneu2k=
 			</data>
 			<key>hash2</key>
 			<data>
-			bSGiHL+Hhm7R7RxGRzh33rEsU7OFa2AJaPcTkzaAsn4=
+			FULZLvA0okw2XmKziRlnwKiQKT8vA9+9NYxVMDEKpLE=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7J+wm5U2Q872XGmYRwcNzFzbNS0=
+			jFsvGKP9GthoKCIe6ZGN6xZXOeQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			x8DQeFW9u29cod89wprXMAAwk435F8/DpIqIqfChy7w=
+			K7alROSGuEpIjL6fpgakxP20Raw2j+GbBRsu1dHaS/8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
