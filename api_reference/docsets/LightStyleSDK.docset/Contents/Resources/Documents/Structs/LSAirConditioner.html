@@ -14,7 +14,7 @@
     <a title="LSAirConditioner Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">LightStyleSDK Docs</a> (23% documented)</p>
+        <p><a href="../index.html">LightStyleSDK Docs</a> (18% documented)</p>
         <p class="header-right"><a href="--dash_url"><img src="../img/gh.png"/>View on GitHub</a></p>
         <p class="header-right"><a href="dash-feed://https%3A%2F%2Fwww%2Egoogle%2Eco%2Eth%2Fdocsets%2FLightStyleSDK%2Exml"><img src="../img/dash.png"/>Install in Dash</a></p>
       </div>
@@ -41,10 +41,25 @@
             <a href="../Enums.html">Enumerations</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="../Enums/LSAirConditionerFanOption.html">LSAirConditionerFanOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LSAirConditionerModeOption.html">LSAirConditionerModeOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LSAirConditionerOperationOption.html">LSAirConditionerOperationOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LSAirConditionerPowerOption.html">LSAirConditionerPowerOption</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Enums/LSDeviceCommandType.html">LSDeviceCommandType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Enums/LSError.html">LSError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LSTemperature.html">LSTemperature</a>
               </li>
             </ul>
           </li>
@@ -64,6 +79,12 @@
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
                 <a href="../Structs/LSAirConditioner.html">LSAirConditioner</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:13LightStyleSDK22LSAirConditionerOptionV">LSAirConditionerOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LSAirConditionerOptionCommands.html">LSAirConditionerOptionCommands</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/LSCurtain.html">LSCurtain</a>
@@ -201,12 +222,104 @@
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13LightStyleSDK16LSAirConditionerV13observeStatus10completionyyAA0dE6OptionVSg_AA7LSErrorOSgtc_tF"></a>
+                    <a name="//apple_ref/swift/Method/observeStatus(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13LightStyleSDK16LSAirConditionerV13observeStatus10completionyyAA0dE6OptionVSg_AA7LSErrorOSgtc_tF">observeStatus(completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Observe status when it&rsquo;s updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">observeStatus</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">((</span><span class="kt"><a href="../Structs.html#/s:13LightStyleSDK22LSAirConditionerOptionV">LSAirConditionerOption</a></span><span class="p">?,</span> <span class="kt"><a href="../Enums/LSError.html">LSError</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>completionn block of status</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:13LightStyleSDK16LSAirConditionerV13requestStatus10completionyyAA0dE6OptionVSg_AA7LSErrorOSgtc_tF"></a>
+                    <a name="//apple_ref/swift/Method/requestStatus(completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:13LightStyleSDK16LSAirConditionerV13requestStatus10completionyyAA0dE6OptionVSg_AA7LSErrorOSgtc_tF">requestStatus(completion:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Requst currently status of air conditioner</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">requestStatus</span><span class="p">(</span><span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">((</span><span class="kt"><a href="../Structs.html#/s:13LightStyleSDK22LSAirConditionerOptionV">LSAirConditionerOption</a></span><span class="p">?,</span> <span class="kt"><a href="../Enums/LSError.html">LSError</a></span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">))</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>completion block of status</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://www.google.co.th" target="_blank" rel="external">LightStyle</a>. All rights reserved. (Last updated: 2018-10-24)</p>
+          <p>&copy; 2018 <a class="link" href="https://www.google.co.th" target="_blank" rel="external">LightStyle</a>. All rights reserved. (Last updated: 2018-12-03)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
