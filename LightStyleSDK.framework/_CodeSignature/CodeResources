@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		X7rUQX1ovLNiGhqGuYqH7ZXllko=
+		SD+480DVKjh/GWeOFAwme6ky9qo=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Fdaxk8BHsRnYmNys9KyvWl0BgJA=
+		N4b79SB8ray7wXbS+7apOmC0Rmo=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Kbt9PJnm/iVTcMQvKtEUufneu2k=
+		KzNI4M876rOc1+0GBrd2PuVvHKQ=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		jFsvGKP9GthoKCIe6ZGN6xZXOeQ=
+		IYOr+USeTOoFkWeBdCElU+gaxyg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,44 +80,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			X7rUQX1ovLNiGhqGuYqH7ZXllko=
+			SD+480DVKjh/GWeOFAwme6ky9qo=
 			</data>
 			<key>hash2</key>
 			<data>
-			njRA1hNQGT9dcmpmu08g8LaKF3DNomgH3Wq24D8ScyM=
+			yrP9JOu51qcKO4ffbxaK3mT9BAAOjq5KD/P+tf6eZOU=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fdaxk8BHsRnYmNys9KyvWl0BgJA=
+			N4b79SB8ray7wXbS+7apOmC0Rmo=
 			</data>
 			<key>hash2</key>
 			<data>
-			qYcYr0WXbNaVqQITqvmecQgpJJzFflkAGDo5sjdWF1Q=
+			Dzcb3GHhy9scQF88nNPS1tua/cn87bBJwtFnGGAV1D4=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kbt9PJnm/iVTcMQvKtEUufneu2k=
+			KzNI4M876rOc1+0GBrd2PuVvHKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			FULZLvA0okw2XmKziRlnwKiQKT8vA9+9NYxVMDEKpLE=
+			4WITHxVcwKFPmn2jlhdlpgPv6aGzvAqmH7jCdxwnnmg=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jFsvGKP9GthoKCIe6ZGN6xZXOeQ=
+			IYOr+USeTOoFkWeBdCElU+gaxyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			K7alROSGuEpIjL6fpgakxP20Raw2j+GbBRsu1dHaS/8=
+			ukBwUCHFNSFTJ9bfF9OJCkoAQk2XrM3L/Ws1UD5KJpU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
