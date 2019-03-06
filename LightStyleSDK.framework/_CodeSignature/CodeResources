@@ -18,23 +18,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bmjz/E4PITFwPyoSrF8w6J8KCxE=
+		kQRU2OX/LDjloW1cZ1BCy1BO/+w=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
-		SD+480DVKjh/GWeOFAwme6ky9qo=
+		l8EgHVn/NVDSLRlre6fez9J6E7s=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		N4b79SB8ray7wXbS+7apOmC0Rmo=
+		qKD/pqH6HQ8pij1LZqVA4xsqjB4=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		KzNI4M876rOc1+0GBrd2PuVvHKQ=
+		s3l9H/bfVCO+PIujb8fK9EM+eWY=
 		</data>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		IYOr+USeTOoFkWeBdCElU+gaxyg=
+		oUn3EfkPC8m9NKkPQqoLoq7M9w0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,44 +80,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SD+480DVKjh/GWeOFAwme6ky9qo=
+			l8EgHVn/NVDSLRlre6fez9J6E7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			yrP9JOu51qcKO4ffbxaK3mT9BAAOjq5KD/P+tf6eZOU=
+			e+9LVUGl2EbF7WW13e4TLz+sR5wlWbyTWWJKyhtkerU=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			N4b79SB8ray7wXbS+7apOmC0Rmo=
+			qKD/pqH6HQ8pij1LZqVA4xsqjB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dzcb3GHhy9scQF88nNPS1tua/cn87bBJwtFnGGAV1D4=
+			zwHfMHL0AxBJTUmODRkAk+XD8AlD5vmkKD7u1bGe62Y=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KzNI4M876rOc1+0GBrd2PuVvHKQ=
+			s3l9H/bfVCO+PIujb8fK9EM+eWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			4WITHxVcwKFPmn2jlhdlpgPv6aGzvAqmH7jCdxwnnmg=
+			ivylr337544gPGBqt4APiS1IFXHj6aZvnViTWg6p38g=
 			</data>
 		</dict>
 		<key>Modules/LightStyleSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			IYOr+USeTOoFkWeBdCElU+gaxyg=
+			oUn3EfkPC8m9NKkPQqoLoq7M9w0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ukBwUCHFNSFTJ9bfF9OJCkoAQk2XrM3L/Ws1UD5KJpU=
+			hZ2VBp0N1FKJSwGkKRbcB7+wiLqzgLjrrqLE6rFNgqw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
