@@ -5,8 +5,8 @@
 // Import SDK
 import LightStyleSDK
 
-// Set username and password
-LightStyleSDK.shared.initialize(username: "#username#", password: "#password#")
+// Set host url, username and password
+LightStyleSDK.shared.initialize(host: "#host url#", username: "#username#", password: "#password#")
 
 // Update configuration
 LightStyleSDK.shared.updateConfiguration(projectId: "#project_id#", unitId: "#unit_id#") { (success, error) in
@@ -40,6 +40,20 @@ LightStyleSDK.shared.updateConfiguration(projectId: "#project_id#", unitId: "#un
                 print("Send command successfully.")
             })
         }
+
+        // Observe air conditioners status
+        guard let airConditioners = LightStyleSDK.shared.rooms.first?.airConditioners else {
+            return
+        }
+        
+        LightStyleSDK.shared.observeStatus(of: airConditioners, completion: { (status, error) in
+            if let err = error {
+                print(err)
+            } else {
+                // handle status an object.
+            }
+
+        })
         
         // Get the first remote control and the first command
         if let ir = room.remoteControls.first, let cmd = ir.commands.first {
