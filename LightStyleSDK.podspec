@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LightStyleSDK"
-  s.version      = "1.0.0-Beta-1-Swift5"
+  s.version      = "1.0.0-Beta-2"
   s.summary      = "Light Style SDK"
   s.homepage     = "https://github.com/itthisakp/LightStyle"
   s.license      = "Light Style"
@@ -10,7 +10,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/itthisakp/LightStyle.git", :tag => "#{s.version}" }
   s.ios.vendored_frameworks  = "LightStyleSDK.framework"
   s.dependency "LightStyleSupportingSDK"
-  s.user_target_xcconfig = { "ENABLE_BITCODE" => "NO" }
-  s.pod_target_xcconfig = { "ENABLE_BITCODE" => "NO" }
 
 end

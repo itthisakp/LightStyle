@@ -45,7 +45,6 @@ LightStyleSDK.shared.updateConfiguration(projectId: "#project_id#", unitId: "#un
         guard let airConditioners = LightStyleSDK.shared.rooms.first?.airConditioners else {
             return
         }
-        
         LightStyleSDK.shared.observeStatus(of: airConditioners, completion: { (status, error) in
             if let err = error {
                 print(err)
