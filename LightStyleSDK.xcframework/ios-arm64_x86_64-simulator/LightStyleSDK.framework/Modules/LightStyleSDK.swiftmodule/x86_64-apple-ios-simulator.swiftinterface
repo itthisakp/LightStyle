@@ -1,0 +1,248 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LightStyleSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import LightStyleSDK
+import LightStyleSupportingSDK
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+public enum LSError : Swift.Error {
+  case configuration(message: Swift.String)
+  case JSONParser(message: Swift.String)
+  case socketError(message: Swift.String)
+  case decoding(underlyingError: Swift.DecodingError)
+  case other(error: Swift.Error)
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
+extension LightStyleSDK.LSError : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+  public var debugDescription: Swift.String {
+    get
+  }
+}
+extension LightStyleSDK.LSError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public typealias LSCurtainCommand = LightStyleSDK.LSDeviceCommand
+public struct LSCurtain {
+  public var name: Swift.String
+  public var id: Swift.String? {
+    get
+  }
+  public var attributes: [Swift.String : Swift.String]
+  public var commands: [LightStyleSDK.LSCurtainCommand]
+}
+public struct LSRoom {
+  public let name: Swift.String
+  public let roomDescription: Swift.String
+  public var switches: [LightStyleSDK.LSSwitch] {
+    get
+  }
+  public var curtains: [LightStyleSDK.LSCurtain] {
+    get
+  }
+  public var airConditioners: [LightStyleSDK.LSAirConditioner] {
+    get
+  }
+  public var remoteControls: [LightStyleSDK.LSRemoteControl] {
+    get
+  }
+}
+extension LightStyleSDK.LSRoom : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public typealias LSAirConditionerCommand = LightStyleSDK.LSDeviceCommand
+public enum LSAirConditionerPowerOption : Swift.String {
+  case on
+  case off
+  case unknown
+  public var value: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LSAirConditionerModeOption : Swift.String {
+  case stop
+  case cool
+  case hot
+  case auto
+  case unknown
+  public var value: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LSAirConditionerOperationOption : Swift.String {
+  case manual
+  case auto
+  case unknown
+  public var value: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LSAirConditionerFanOption : Swift.String {
+  case stop
+  case low
+  case medium
+  case high
+  case unknown
+  public var value: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum LSTemperature {
+  case tempurature(Swift.Int)
+  public var value: Swift.String {
+    get
+  }
+}
+public struct LSAirConditionerOptionCommands {
+  public var power: LightStyleSDK.LSAirConditionerPowerOption
+  public var mode: LightStyleSDK.LSAirConditionerModeOption
+  public var operation: LightStyleSDK.LSAirConditionerOperationOption
+  public var fan: LightStyleSDK.LSAirConditionerFanOption
+  public var setTemperature: Swift.Int
+  public init(power: LightStyleSDK.LSAirConditionerPowerOption, mode: LightStyleSDK.LSAirConditionerModeOption, operation: LightStyleSDK.LSAirConditionerOperationOption, fan: LightStyleSDK.LSAirConditionerFanOption, setTemperature: Swift.Int)
+}
+public struct LSAirConditionerStatus {
+  public let airConditioner: LightStyleSDK.LSAirConditioner
+  public let option: LightStyleSDK.LSAirConditionerOption
+}
+public struct LSAirConditionerOption {
+  public let power: LightStyleSDK.LSAirConditionerPowerOption?
+  public let mode: LightStyleSDK.LSAirConditionerModeOption?
+  public let operation: LightStyleSDK.LSAirConditionerOperationOption?
+  public let fan: LightStyleSDK.LSAirConditionerFanOption?
+  public let setTemperature: Swift.Int?
+  public let roomTemperature: Swift.Int?
+}
+public struct LSAirConditioner {
+  public var name: Swift.String
+  public var id: Swift.String? {
+    get
+  }
+  public var attributes: [Swift.String : Swift.String]
+  public var commands: [LightStyleSDK.LSAirConditionerCommand]
+}
+public typealias LSSwitchComand = LightStyleSDK.LSDeviceCommand
+public struct LSSwitch {
+  public var name: Swift.String
+  public var id: Swift.String? {
+    get
+  }
+  public var attributes: [Swift.String : Swift.String]
+  public var commands: [LightStyleSDK.LSSwitchComand]
+}
+public typealias LSRemoteControlCommand = LightStyleSDK.LSDeviceCommand
+public struct LSRemoteControl {
+  public var name: Swift.String
+  public var id: Swift.String? {
+    get
+  }
+  public var attributes: [Swift.String : Swift.String]
+  public var commands: [LightStyleSDK.LSRemoteControlCommand]
+}
+public enum LSDeviceCommandType : Swift.String {
+  case toggle
+  case open
+  case close
+  case on
+  case off
+  case inquiry
+  case power
+  case volumeUp
+  case volumeDown
+  case channelUp
+  case channelDown
+  case cursorUp
+  case cursorDown
+  case cursorLeft
+  case cursorRight
+  case enter
+  case back
+  case videoInput
+  case number0
+  case number1
+  case number2
+  case number3
+  case number4
+  case number5
+  case number6
+  case number7
+  case number8
+  case number9
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension LightStyleSDK.LSDeviceCommandType : Swift.Decodable {
+}
+public struct LSDeviceCommand {
+  public let type: LightStyleSDK.LSDeviceCommandType
+  public let name: Swift.String
+  public let value: Swift.String
+}
+extension LightStyleSDK.LSDeviceCommand : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
+public typealias LSCompletion = (Swift.Bool, LightStyleSDK.LSError?) -> Swift.Void
+@_hasMissingDesignatedInitializers public class LightStyleSDK {
+  public static let shared: LightStyleSDK.LightStyleSDK
+  public var rooms: [LightStyleSDK.LSRoom] {
+    get
+  }
+  public func initialize(host: Swift.String, username: Swift.String, password: Swift.String)
+  public func updateConfiguration(projectId: Swift.String, unitId: Swift.String, completion: @escaping LightStyleSDK.LSCompletion)
+  public func sendCommand(to switch: LightStyleSDK.LSSwitch, with command: LightStyleSDK.LSSwitchComand, completion: @escaping LightStyleSDK.LSCompletion)
+  public func sendCommand(to curtain: LightStyleSDK.LSCurtain, with command: LightStyleSDK.LSCurtainCommand, completion: @escaping LightStyleSDK.LSCompletion)
+  public func sendCommand(to airConditioner: LightStyleSDK.LSAirConditioner, with commands: LightStyleSDK.LSAirConditionerOptionCommands, completion: @escaping LightStyleSDK.LSCompletion)
+  public func sendCommand(to remoteControl: LightStyleSDK.LSRemoteControl, with command: LightStyleSDK.LSRemoteControlCommand, completion: @escaping LightStyleSDK.LSCompletion)
+  public func observeStatus(of airConditioners: [LightStyleSDK.LSAirConditioner], completion: @escaping (([LightStyleSDK.LSAirConditionerStatus], LightStyleSDK.LSError?) -> Swift.Void))
+  public func disconnectAllConnections()
+  @objc deinit
+}
+extension LightStyleSDK.LSAirConditionerPowerOption : Swift.Equatable {}
+extension LightStyleSDK.LSAirConditionerPowerOption : Swift.Hashable {}
+extension LightStyleSDK.LSAirConditionerPowerOption : Swift.RawRepresentable {}
+extension LightStyleSDK.LSAirConditionerModeOption : Swift.Equatable {}
+extension LightStyleSDK.LSAirConditionerModeOption : Swift.Hashable {}
+extension LightStyleSDK.LSAirConditionerModeOption : Swift.RawRepresentable {}
+extension LightStyleSDK.LSAirConditionerOperationOption : Swift.Equatable {}
+extension LightStyleSDK.LSAirConditionerOperationOption : Swift.Hashable {}
+extension LightStyleSDK.LSAirConditionerOperationOption : Swift.RawRepresentable {}
+extension LightStyleSDK.LSAirConditionerFanOption : Swift.Equatable {}
+extension LightStyleSDK.LSAirConditionerFanOption : Swift.Hashable {}
+extension LightStyleSDK.LSAirConditionerFanOption : Swift.RawRepresentable {}
+extension LightStyleSDK.LSDeviceCommandType : Swift.Equatable {}
+extension LightStyleSDK.LSDeviceCommandType : Swift.Hashable {}
+extension LightStyleSDK.LSDeviceCommandType : Swift.RawRepresentable {}

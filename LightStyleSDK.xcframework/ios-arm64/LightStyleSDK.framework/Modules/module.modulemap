@@ -6,6 +6,6 @@ framework module LightStyleSDK {
 }
 
 module LightStyleSDK.Swift {
-    header "LightStyleSDK-Swift.h"
-    requires objc
+  header "LightStyleSDK-Swift.h"
+  requires objc
 }
