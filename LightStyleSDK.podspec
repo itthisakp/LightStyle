@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.7'
   s.source       = { :git => "https://github.com/itthisakp/LightStyle.git", :tag => "#{s.version}" }
   s.ios.vendored_frameworks  = "LightStyleSDK.xcframework"
-  s.dependency "LightStyleSupportingSDK"
+  s.dependency "LightStyleSupportingSDK", '1.0.5'
 
 end
